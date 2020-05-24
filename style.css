@@ -1,0 +1,102 @@
+.container{
+	width:450px;
+	margin:auto;
+	background-color: lightgray;
+	opacity: 85%;
+	margin-top: 50px;
+	padding:5px;
+}
+
+.container-grid{
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+     grid-gap: 10px;
+     grid-auto-rows: 100px;
+}
+
+div{
+   color: green;}
+
+.section1{
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    background-color: blue;
+    color: black;
+    font-size: 20px;
+    width: 143px;
+    background: url(image1.jpg);
+    background-size: cover;
+   
+}
+
+.section1 a:hover{
+   color: black; 
+   text-decoration: none;
+    }
+   
+
+.section2{
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+    font-size: 20px;
+    background: url(image2.jpg);
+    background-size: cover;
+    width: 143px;
+
+}   
+
+.section2 a:hover{
+   color: white; 
+   text-decoration: none;
+    }
+.section3{
+    grid-column: 3;
+    grid-row: 1;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+   background: url(image2.jpg);
+    background-size: cover;
+    width: 143px;
+
+}  
+ .section4{
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+background: url(audiothumbnail.png);
+    background-size: cover;
+    background-image-width: 30px;
+
+}   
+.section5{
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+background: url(audiothumbnail.png);
+    background-size: cover;
+
+}   
+.section6{
+    grid-column: 3;
+    grid-row: 2;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+background: url(pdfthumbnail.jpg);
+    background-size: cover;
+}   
+
+ 
